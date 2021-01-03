@@ -1,16 +1,14 @@
 # mfawazTest
 
-A new Flutter project.
+Design Task.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1- The first task will measure your ability to work with flutter widgets and make a working application from a given design.
+The design will be provided through Figma. You can find the design at the following link.
 
-A few resources to get you started if this is your first Flutter project:
+- [Application Design](https://www.figma.com/file/DtoecYhD0oFWaqabQMQXek/Untitled?node-id=0%3A1)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+and you will submit this task to the following repository.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Task Repository](https://github.com/Elsystm-Inc/mFawazAssessmentTestDesign)
