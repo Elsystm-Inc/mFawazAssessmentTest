@@ -2,6 +2,8 @@
 
 Design Task.
 
+This is an initial pull request.
+
 ## Getting Started
 
 1- The first task will measure your ability to work with flutter widgets and make a working application from a given design.
