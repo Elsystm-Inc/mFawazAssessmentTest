@@ -65,20 +65,22 @@ class AppTheme {
 
   static TextStyle caption = TextStyle(
     fontWeight: FontWeight.w300,
+    fontFamily: "Gotham",
     color: AppColors.primaryColors[200],
     fontSize: 14,
   );
 
   static TextStyle input = TextStyle(
     fontWeight: FontWeight.w300,
+    fontFamily: "Gotham",
     color: AppColors.primaryColors[200],
     fontSize: 14,
   );
 
   static TextStyle body = TextStyle(
-    fontWeight: FontWeight.w300,
-    color: AppColors.primaryColors[200],
-    fontSize: 12,
+    fontWeight: FontWeight.w700,
+    fontFamily: "Gotham",
+    fontSize: 10,
   );
 
   static TextStyle bodySmall = TextStyle(
@@ -90,7 +92,7 @@ class AppTheme {
 
   static TextStyle smallText = TextStyle(
     color: AppColors.customGreyLevels[300],
-    fontFamily: "Gothanm",
+    fontFamily: "Gotham",
     fontSize: 12,
     fontWeight: FontWeight.w400,
   );

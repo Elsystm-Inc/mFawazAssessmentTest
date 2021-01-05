@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mfawazTest/ui/style/app.colors.dart';
 
-import 'package:shared_preferences/shared_preferences.dart';
-
 import '../../../utils/constants.dart';
 
 class LandingSplashScreen extends StatefulWidget {
@@ -16,8 +14,6 @@ class LandingSplashScreen extends StatefulWidget {
 }
 
 class _LandingSplashScreenState extends State<LandingSplashScreen> {
-  String _route;
-
   @override
   void initState() {
     super.initState();
@@ -76,21 +72,6 @@ class _LandingSplashScreenState extends State<LandingSplashScreen> {
         ),
       ),
     );
-  }
-
-  startTime() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    //if user registered
-    if (prefs.containsKey('userData')) {
-      //if email is verified
-      _route = Constants.homePage;
-    } else {
-      //if user not registered
-      _route = Constants.authPage;
-    }
-
-    Duration _duration = new Duration(seconds: 2);
-    return new Timer(_duration, navigationPage);
   }
 
   void navigationPage() {

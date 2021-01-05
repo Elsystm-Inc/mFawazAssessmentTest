@@ -7,12 +7,14 @@ class Constants {
   static const dummyProfilePic = "";
 
   //Route names
-  static const mainPage = "/";
+  static const splashPage = "/";
   static const authPage = "/authPage";
+  static const mainPage = "/mainPage";
+  static const homePage = "/homePage";
+  static const communityPage = "communityPage";
   static const registerPage = "/registerPage";
   static const resetPasswordPage = "/resetPasswordPage";
   static const verificationScreen = "/verificationScreen";
-  static const homePage = "/mainPage";
   static const settingsPage = "/settingsPage";
   static const myOrderPage = "/myOrderPage";
   static const checkoutPage = "/checkoutPage";
@@ -34,8 +36,10 @@ class Constants {
   static const serviceCenterDetailsPage = "/serviceCenterDetailsPage";
 
   // Keys
-  static const consumerKey = "ck_84bf021fb3836e4daa569acf30a4ed7b67485163"; // suqokaz
-  static const consumerSecret = "cs_c1c1fd46e311cd7c2625012b9f6337623034490b"; // suqokaz
+  static const consumerKey =
+      "ck_84bf021fb3836e4daa569acf30a4ed7b67485163"; // suqokaz
+  static const consumerSecret =
+      "cs_c1c1fd46e311cd7c2625012b9f6337623034490b"; // suqokaz
 
   // Local Keys
   static const kLocalKey = {
@@ -51,7 +55,12 @@ class Constants {
 
   static const kAdvanceConfig = {
     "DefaultLanguage": "ar",
-    "DefaultCurrency": {"symbol": "EGP ", "decimalDigits": 1, "symbolBeforeTheNumber": false, "currency": "EGP"},
+    "DefaultCurrency": {
+      "symbol": "EGP ",
+      "decimalDigits": 1,
+      "symbolBeforeTheNumber": false,
+      "currency": "EGP"
+    },
   };
 
   // Images
