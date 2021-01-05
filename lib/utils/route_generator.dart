@@ -1,4 +1,5 @@
 import 'package:mfawazTest/ui/modules/splash/splash.page.dart';
+import 'package:mfawazTest/ui/modules/login/login.page.dart';
 import 'package:flutter/material.dart';
 import 'constants.dart';
 
@@ -14,6 +15,11 @@ class RouteGenerator {
         return MaterialPageRoute(
           settings: RouteSettings(name: Constants.mainPage),
           builder: (_) => LandingSplashScreen(),
+        );
+      case Constants.authPage:
+        return MaterialPageRoute(
+          settings: RouteSettings(name: Constants.authPage),
+          builder: (_) => LoginScreen(),
         );
 
       default:

@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.8.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -113,3 +113,9 @@ flutter:
         - asset: assets/fonts/Tajawal-Bold.ttf
         - asset: assets/fonts/Tajawal-Medium.ttf
         - asset: assets/fonts/Tajawal-Black.ttf
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/Gotham-Book.ttf
+        - asset: assets/fonts/Gotham-Bold.ttf
+        - asset: assets/fonts/Gotham-Medium.ttf
+        
