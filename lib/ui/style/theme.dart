@@ -22,68 +22,78 @@ class AppTheme {
   );
 
   static TextStyle headline1 = TextStyle(
-    fontWeight: FontWeight.w700,
-    color: AppColors.primaryColors[200],
+    color: AppColors.customGreyLevels[400],
+    fontFamily: "Gothanm",
     fontSize: 18,
+    fontWeight: FontWeight.w700,
   );
 
   static TextStyle headline2 = TextStyle(
-    fontWeight: FontWeight.w700,
-    color: AppColors.primaryColors[200],
+    color: AppColors.customGreyLevels[400],
+    fontFamily: "Gothanm",
     fontSize: 16,
+    fontWeight: FontWeight.w500,
   );
 
   static TextStyle headline3 = TextStyle(
+    color: AppColors.customGreyLevels[400],
+    fontFamily: "Gothanm",
+    fontSize: 16,
     fontWeight: FontWeight.w700,
-    color: AppColors.primaryColors[200],
-    fontSize: 12,
   );
 
   static TextStyle headline4 = TextStyle(
-    fontWeight: FontWeight.w300,
-    color: AppColors.primaryColors[200],
-    fontSize: 14,
+    fontWeight: FontWeight.w700,
+    color: AppColors.customGreyLevels[400],
+    fontSize: 16,
+    fontFamily: "Gothanm",
   );
 
   static TextStyle headline5 = TextStyle(
     fontWeight: FontWeight.w500,
-    color: AppColors.primaryColors[200],
+    color: AppColors.customGreyLevels[400],
+    fontFamily: "Gothanm",
     fontSize: 14,
   );
 
   static TextStyle button = TextStyle(
-    fontWeight: FontWeight.w300,
-    color: AppColors.primaryColors[200],
-    fontSize: 16,
+    color: Colors.white,
+    fontWeight: FontWeight.w700,
+    fontFamily: "Gotham",
+    fontSize: 14,
   );
 
   static TextStyle caption = TextStyle(
     fontWeight: FontWeight.w300,
+    fontFamily: "Gotham",
     color: AppColors.primaryColors[200],
     fontSize: 14,
   );
 
   static TextStyle input = TextStyle(
     fontWeight: FontWeight.w300,
+    fontFamily: "Gotham",
     color: AppColors.primaryColors[200],
     fontSize: 14,
   );
 
   static TextStyle body = TextStyle(
-    fontWeight: FontWeight.w300,
-    color: AppColors.primaryColors[200],
-    fontSize: 12,
+    fontWeight: FontWeight.w700,
+    fontFamily: "Gotham",
+    fontSize: 10,
   );
 
   static TextStyle bodySmall = TextStyle(
-    fontWeight: FontWeight.w300,
-    color: AppColors.primaryColors[200],
+    color: Colors.white,
+    fontWeight: FontWeight.w400,
+    fontFamily: "Gotham",
     fontSize: 12,
   );
 
   static TextStyle smallText = TextStyle(
-    fontWeight: FontWeight.w300,
-    color: AppColors.primaryColors[200],
-    fontSize: 11,
+    color: AppColors.customGreyLevels[300],
+    fontFamily: "Gotham",
+    fontSize: 12,
+    fontWeight: FontWeight.w400,
   );
 }
